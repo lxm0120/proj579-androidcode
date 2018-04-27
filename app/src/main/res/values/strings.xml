@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">proje579code</string>
+    <!--<string name="facebook_app_id">392915427841151</string>
+    <string name="fb_login_protocol_scheme">fb392915427841151</string>-->
+    <string name="facebook_app_id">158756904805454</string>
+    <string name="fb_login_protocol_scheme">fb158756904805454</string>
+
+</resources>

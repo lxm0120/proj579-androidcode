@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    tools:context="com.example.monster.proje579code.TakepicActivity">
+
+
+    <ImageButton
+        android:id="@+id/takepho"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:background="#00000000"
+        android:onClick="takePhone"
+        android:scaleType="fitEnd"
+        app:srcCompat="@drawable/ic_photo_camera_black_24dp" />
+
+    <Button
+        android:id="@+id/getresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="88dp"
+        android:background="@drawable/button_style"
+        android:text="Result"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:id="@+id/imageView"
+        android:scaleType="centerCrop"
+        />
+</RelativeLayout>
